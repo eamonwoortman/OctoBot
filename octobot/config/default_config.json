@@ -1,5 +1,9 @@
 {
   "backtesting": {
+      "date_range": {
+        "start_range": "",
+        "end_range": ""
+      },
       "files": []
   },
   "crypto-currencies":{
