@@ -45,9 +45,17 @@ OctoBot's installation is **very simple**... because **very documented** !
 - Click on "Update OctoBot"
 
 #### [With Docker](https://github.com/Drakkar-Software/OctoBot/wiki/With-Docker)
+24h demo with a free Okteto account with
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/Drakkar-Software/OctoBot&branch=0.4.0)
+
+OR
+
+Self hosting with docker :
 ```
-touch config.json && docker run -it -d --name MyAmazingOctobot -v $(pwd)/config.json:/bot/octobot/config.json -v $(pwd)/logs:/bot/octobot/logs -v $(pwd)/tentacles:/bot/octobot/tentacles drakkarsoftware/octobot:beta
+docker run -itd --name OctoBot -p 80:5001 drakkarsoftware/octobot:0.4.0-stable
 ```
+And then open [http://localhost](http://localhost).
 
 #### [With python sources](https://github.com/Drakkar-Software/OctoBot/wiki/With-Python-only) (unix)
 - Install python3.7 (https://www.python.org/downloads/)
@@ -103,5 +111,8 @@ expect.
 
 Do not hesitate to read the source code and understand the mechanism of this bot.
 
-## Contribute
+## Contribute / Sponsors
 See the [contribution wiki page](https://github.com/Drakkar-Software/OctoBot/wiki/Contribution)
+-   [JetBrains](https://www.jetbrains.com/) with PyCharm Pro.
+
+![](https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png)
